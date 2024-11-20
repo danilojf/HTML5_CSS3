@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body bgcolor="#FF987744">
+    <nav>
+        <a href="./index.html">Home</a>
+        <hr />
+        <br>
+        <br>
+    </nav>
+    <h2>Cadastros</h2>
+    <form>
+        <label for="email">E-mail:</label>
+        <input id="email" type="email" placeholder="exemplo@email.com">
+        <br>
+        <br>
+        <label for="user">Nome Completo:</label>
+        <input id="user" type="text" placeholder="Digite Seu Nome Completo">
+        <br>
+        <br>
+        <label>Senha:</label>
+        <input type="password">
+        <br>
+        <br>
+        <label>Idade:</label>
+        <input type="number" max="120" min="10">
+        <br>
+        <br>
+        <label for="nascimento">Data de Nascimento:</label>
+        <input type="date" id="nascimento">
+        <br>
+        <br>
+        <label for="contato">Celular/Telefone:</label>
+        <input id="contato" type="tel" placeholder="(00) 00000-0000" maxlength="11">
+        <br>
+        <br>
+        <label">Sexo:</label>
+        <input type="radio" id="radiomas" name="sexoescolhido"><label for="radiomas">Masculino</label>
+        <input type="radio" id="radiofem" name="sexoescolhido"><label for="radiofem">Feminino</label>
+        <input type="radio" id="radiooutro" name="sexoescolhido"><label for="radiooutro">Outros</label>
+        <br>
+        <br>
+    
+        <input type="checkbox" id="checkin-termos"> <label for="checkin-termos"> Aceitar Termos de políticas da página</label>
+        <br>
+        <br>
+        <button type="submit">
+            Cadastrar
+        </button>
+        <button type="reset">
+            Limpar Dados
+        </button>
+    </form>
+    
+</body>
+</html>
